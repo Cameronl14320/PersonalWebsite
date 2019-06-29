@@ -3,29 +3,57 @@ html, body {
   padding: 0;
   background-color: #2e2e2e;
 }
-
-.headerclass {
+/* Header */
+.header {
   top: 0;
   width: 100%;
-  height: auto;
-  position: absolute;
-  text-align: center;
   background-color: #1c1c1c;
-  font-size: 25px;
   color: #bababa;
   padding-top: 10px;
   padding-bottom: 10px;
   opacity: .75;
 }
 
-.footerclass {
+/* Main */
+.main {
+  color: #bababa;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+
+}
+
+/* Footer */
+.footer {
+  position: fixed;
   bottom: 0;
   width: 100%;
-  position: absolute;
   text-align: center;
   background-color: #1c1c1c;
   font-size: 25px;
   color: #bababa;
+}
+
+.reveal {
+  height: 100%;
+  width: 2.5%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  opacity: .25;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.reveal:hover {
+  opacity: .75;
+  transition: .5s;
+  width: 7.5%;
 }
 
 /* The side navigation menu */
@@ -56,6 +84,7 @@ html, body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
+  white-space: nowrap;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -75,31 +104,6 @@ html, body {
   margin-left: 50px;
 }
 
-.revealclass {
-  height: 100%;
-  width: 25px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  opacity: .25;
-  cursor: pointer;
-}
-
-.revealclass:hover {
-  opacity: .75;
-  transition: .5s;
-  width: 100px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-.mainclass {
-  padding-top: 50px;
-  color: #bababa;
-  text-align: center;
-}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
