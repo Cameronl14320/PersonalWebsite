@@ -6,11 +6,19 @@ html, body {
 /* Header */
 .header {
   top: 0;
+  height: auto;
   width: 100%;
   background-color: #1c1c1c;
   color: #bababa;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.headingimg {
+  width: 100%;
+  height: 100%;
+  background-repeat: false;
+  background-image:url(./images/hubheading.png);
 }
 
 /* Main */
@@ -106,11 +114,20 @@ html, body {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
+ 
+  
   .sidenav {
     padding-top: 15px;
   }
 
   .sidenav a {
     font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  .headingimg {
+    background-image:url(./images/hubheadingmed.png);
   }
 }
