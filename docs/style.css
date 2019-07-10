@@ -1,9 +1,19 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #2e2e2e;
-  height: 2000px
+  height: 2000px;
 }
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  background-position: top;
+  position: absolute;
+  background-repeat: true;
+  background-image:url(./images/testbg.jpg);
+}
+
 /* Header */
 .header {
   z-index: 2;
@@ -16,13 +26,6 @@ html, body {
   padding-bottom: 10px;
 }
 
-.headingimg {
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  background-repeat: false;
-}
-
 /* Main */
 .main {
   z-index: -0;
@@ -31,34 +34,24 @@ html, body {
   padding-top: 5px;
   text-align: center;
   margin: auto;
-  width: 60%;
-  height: 1000px
+  width: 100%;
+  height: 100%
 }
 
 .maintextunder {
   z-index: 0;
   position: absolute;
 width: 70%;
-height: 2000px;
+height: 100%;
 background-color: #1c1c1c;
 margin-left: 15%;
 opacity: .8;
 }
 
-.mainbg {
-  position:absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  background-image:url( "./images/testbg.jpg");
-  background-repeat: true;
-  opacity: .5;
-}
-
 /* Footer */
 .footer {
   z-index: 2;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -148,10 +141,4 @@ opacity: .8;
     font-size: 18px;
   }
 
-}
-
-@media screen and (max-width: 720px) {
-  .headingimg {
-    background-image:url(./images/hubheadingmed.png);
-  }
 }
