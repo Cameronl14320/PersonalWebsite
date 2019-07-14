@@ -16,14 +16,31 @@ body {
 /* Header */
 
 .header {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    position: fixed;
     z-index: 2;
     top: 0;
-    height: auto;
+    height: 125px;
     width: 100%;
     background-color: #1c1c1c;
-    color: #bababa;
+    transition: .2s;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+    background-color: #bfbfbf;
+}
+
+.reveal {
+    width: 100%;
+    height: 0px;
+    z-index: 3;
+    top: 0;
+    position: fixed;
+    background-color: #1c1c1c;
 }
 
 
@@ -33,11 +50,12 @@ body {
     z-index: -0;
     color: #bababa;
     position: relative;
-    padding-top: 5px;
+    padding-top: 105px;
     text-align: center;
     margin: auto;
     width: 60%;
     height: 100%;
+    transition: 0.2s;
 }
 
 .maintextunder {
