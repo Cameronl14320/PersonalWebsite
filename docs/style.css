@@ -19,19 +19,10 @@ body {
     position: fixed;
     z-index: 2;
     top: 0;
-    height: 125px;
+    height: 65px;
     width: 100%;
     background-color: #1c1c1c;
-    transition: .2s;
-}
-
-.navbar {
-    width: 100%;
-    height: 50px;
-    z-index: 3;
-    bottom: 0;
-    position: absolute;
-    background-color: #bfbfbf;
+    transition: .4s ease-in-out;
 }
 
 .reveal {
@@ -41,25 +32,26 @@ body {
     top: 0;
     position: fixed;
     background-color: #1c1c1c;
+    transition: 0.2s
 }
 
 
 /* Main */
 
 .main {
-    z-index: -0;
+    transition: .2s;
+    z-index: 0;
     color: #bababa;
     position: relative;
-    padding-top: 105px;
+    padding-top: 80px;
     text-align: center;
     margin: auto;
     width: 60%;
     height: 100%;
-    transition: 0.2s;
 }
 
 .maintextunder {
-    padding-bottom: 10px;
+    padding-bottom: 35px;
     z-index: 0;
     position: absolute;
     width: 70%;
