@@ -43,7 +43,7 @@ body {
     overflow: hidden;
 }
 
-#navbar a {
+#navbar navlink {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -53,6 +53,12 @@ body {
     transition: .1s ease-in-out;
 }
 
+#navbar navlink:hover,
+#reveal:hover {
+    cursor: pointer;
+    color: #d6d6d6;
+}
+
 #reveal {
     background-color: #1c1c1c;
     position: relative;
@@ -60,10 +66,6 @@ body {
     text-align: center;
     color: #818181;
     width: 100%;
-}
-
-#reveal:hover {
-    cursor: pointer;
 }
 
 
