@@ -33,18 +33,33 @@ body {
 }
 
 #navbar {
-    height: 10px;
+    height: 0px;
     width: 100%;
-    background-color: #bababa;
+    background-color: #1c1c1c;
     position: relative;
+    transition: .1s ease-in-out;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #818181;
+    transition: .1s ease-in-out;
 }
 
 #reveal {
-    background-color: #ffffff;
+    background-color: #1c1c1c;
     position: relative;
-    height: 15px;
+    height: 20px;
+    text-align: center;
+    color: #818181;
     width: 100%;
-    bottom: 0;
 }
 
 #reveal:hover {
