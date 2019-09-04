@@ -22,21 +22,22 @@ body {
     justify-content: center;
 }
 
-#entry-h1 {
+#entry a {
     font-size: 50px;
     color: #000000;
     transition: ease-in-out;
     transition-duration: .25s;
+    text-decoration: none;
 }
 
-#entry-h1:hover {
+#entry a:hover {
     cursor: pointer;
     color: #7e7e7e;
     transition: ease-in-out;
     transition-duration: .25s;
 }
 
-#entry-h1:active {
+#entry a:active {
     color: #0059ff;
     transition-duration: 0s;
 }
