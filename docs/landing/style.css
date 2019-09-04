@@ -1,0 +1,36 @@
+#html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+#body {
+    background-color: #ffffff;
+}
+
+#landing {
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-h1 {
+    font-size: 50px;
+    color: #000000
+}
+
+#landing-h1:hover {
+    cursor: pointer;
+    color: #1b1b1b;
+    text-shadow: 2px 2px #b6b6b6;
+    transition: ease-in-out;
+    transition-duration: .5s;
+    opacity: 1;
+}
