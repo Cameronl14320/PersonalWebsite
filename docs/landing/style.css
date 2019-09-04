@@ -10,12 +10,10 @@ body {
 }
 
 #landing {
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    height: 50%;
+    top: 0px;
+    width: 100%;
     display: inline-block;
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,4 +31,12 @@ body {
     transition: ease-in-out;
     transition-duration: .5s;
     opacity: 1;
+}
+
+#navbar {
+    position: absolute;
+    top: 10%;
+    width: 10%;
+    height: 80%;
+    background-color: #000000;
 }

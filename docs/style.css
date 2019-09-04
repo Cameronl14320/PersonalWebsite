@@ -3,13 +3,18 @@ body {
     width: 100%;
     height: 100%;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 #body {
     background-color: #ffffff;
 }
 
-#landing {
+#entry a {
+    text-decoration: none;
+}
+
+#entry {
     left: 25%;
     top: 25%;
     width: 50%;
@@ -21,16 +26,21 @@ body {
     justify-content: center;
 }
 
-#landing-h1 {
+#entry-h1 {
     font-size: 50px;
-    color: #000000
+    color: #000000;
+    transition: ease-in-out;
+    transition-duration: .25s;
 }
 
-#landing-h1:hover {
+#entry-h1:hover {
     cursor: pointer;
-    color: #1b1b1b;
-    text-shadow: 2px 2px #b6b6b6;
+    color: #7e7e7e;
     transition: ease-in-out;
-    transition-duration: .5s;
-    opacity: 1;
+    transition-duration: .25s;
+}
+
+#entry-h1:active {
+    color: #0059ff;
+    transition-duration: 0s;
 }
