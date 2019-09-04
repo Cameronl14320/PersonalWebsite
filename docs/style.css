@@ -10,10 +10,6 @@ body {
     background-color: #ffffff;
 }
 
-#entry a {
-    text-decoration: none;
-}
-
 #entry {
     left: 25%;
     top: 25%;
@@ -24,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 #entry-h1 {
