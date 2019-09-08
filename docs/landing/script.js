@@ -11,6 +11,8 @@ function hideMainBodyText() {
     console.log("works hideMainBodyText");
     document.getElementById("main-reveal-h1").style.opacity = "0";
     document.getElementById("main-reveal-h1").style.fontSize = "0";
+    document.getElementById("main-reveal-h2").style.opacity = "0";
+    document.getElementById("main-reveal-h2").style.fontSize = "0";
     setTimeout(revealInfo, 250);
     // document.getElementById("main-reveal-h1").style.width = "0";
     // document.getElementById("main-reveal-h1").style.height = "0";

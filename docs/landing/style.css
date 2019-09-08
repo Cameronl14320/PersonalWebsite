@@ -32,7 +32,9 @@ body {
 }
 
 #landing-logo-header {
-    font-size: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 6vw;
     height: auto;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -72,11 +74,11 @@ body {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
+    transition-duration: .5s;
 }
 
-#main-reveal-h1 {
+#main-reveal-h2 {
     margin-top: 2vh;
-    transition-duration: .5s;
 }
 
 #reveal-info {
