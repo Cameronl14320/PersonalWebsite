@@ -76,6 +76,7 @@ body {
 
 #main-reveal-h1 {
     margin-top: 2vh;
+    transition-duration: .5s;
 }
 
 #reveal-info {
@@ -86,14 +87,12 @@ body {
     border-radius: 50%;
     background-color: #000000;
     align-self: center;
-    transition-duration: 1s;
-    transition: ease-in-out;
+    transition-duration: .5s;
 }
 
 #reveal-info:hover {
     cursor: pointer;
 }
-
 
 #maintwo {
     background-color: #00ff15
