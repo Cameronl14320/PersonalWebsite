@@ -48,6 +48,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
+    scroll-behavior: smooth;
 }
 
 #mainone {
@@ -128,7 +129,6 @@ body {
 
 #navbar:hover {
     opacity: 1;
-    transition: ease-in-out;
     transition-duration: .15s;
 }
 
