@@ -54,7 +54,7 @@ function revealInfo() {
         document.getElementById("main-one-info").style.marginLeft = "0";
         document.getElementById("main-one-info").style.width = "100%";
         document.getElementById("main-one-info").style.backgroundColor = "#dfdfdf";
-        setTimeout(profileInfo, 250);
+        setTimeout(profileInfo, 900);
     } else if (hidden == true) {
         document.getElementById("main-reveal-h1").style.display = "block";
         document.getElementById("main-reveal-h2").style.display = "block";
