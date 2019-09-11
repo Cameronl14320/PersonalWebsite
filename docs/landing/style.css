@@ -100,12 +100,21 @@ body {
 
 #main-one-info {
     margin-left: 90vw;
-    height: 40vh;
+    height: auto;
     width: 0;
     display: flex;
     background-color: #ffffff;
     align-self: center;
     transition-duration: 2s;
+}
+
+#info-portrait {
+    width: auto;
+    height: 300px;
+    opacity: 0;
+    transition-duration: .5s;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
 }
 
 #maintwo {

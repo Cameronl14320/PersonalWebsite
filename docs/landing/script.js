@@ -29,9 +29,18 @@ function revealInfo() {
     //document.getElementById("mainbody").style.height = "0";
     if (hidden == false) {
         document.getElementById("mainbody").style.display = "none";
-        document.getElementById("main-one-info").style.marginLeft = "30vw";
-        document.getElementById("main-one-info").style.width = "40vw";
+        document.getElementById("main-one-info").style.marginLeft = "20vw";
+        document.getElementById("main-one-info").style.width = "60vw";
         document.getElementById("main-one-info").style.backgroundColor = "#000000";
+        setTimeout(profileInfo, 250);
+    }
+}
+
+function profileInfo() {
+    if (hidden == false) {
+        document.getElementById("info-portrait").style.width = "50%";
+        document.getElementById("info-portrait").style.opacity = "1";
+
         hidden = true;
     }
 }
