@@ -7,17 +7,17 @@
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
 <body>
+    
     <div id="landing">
         <div id="landing-logo-header">
             <span style="font-family:Arial, Helvetica, sans-serif">Hub</span>
         </div>
     </div>
+    
 
     <div id="mainone">
-        <div id="main-one-info">
-            <img id="info-portrait" src="../images/testprofile.png"> </img>
-        </div>
         <div id="mainbody">
+            
             <span id="main-reveal-h1">
                 Hey, welcome to my personal website!
             </span>
@@ -26,19 +26,22 @@
             </span>
             <div id="reveal-info" onclick="hideReveal()">
             </div>
+            <div id="main-one-info">
+                    <img id="info-portrait" src="../images/testprofile.png"> </img>
+                    <div id="info-description">Hey there, this is sample text</div>
+                    <div onclick="revealClose()" id="info-close">X</div>
+                </div>
         </div>
     </div>
-
     <div id="maintwo">
         test text
     </div>
 
-    <div id="navbar">
+</body>
+
+<div id="navbar">
         <a href="#landing"></a>
         <a href="#maintwo"></a>
     </div>
-</body>
-
-
 
 </html>
