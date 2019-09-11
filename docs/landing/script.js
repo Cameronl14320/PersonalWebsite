@@ -31,7 +31,7 @@ function revealInfo() {
         document.getElementById("mainbody").style.display = "none";
         document.getElementById("main-one-info").style.marginLeft = "20vw";
         document.getElementById("main-one-info").style.width = "60vw";
-        document.getElementById("main-one-info").style.backgroundColor = "#000000";
+        //document.getElementById("main-one-info").style.backgroundColor = "#000000";
         setTimeout(profileInfo, 250);
     }
 }

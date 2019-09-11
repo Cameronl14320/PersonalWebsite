@@ -110,7 +110,8 @@ body {
 
 #info-portrait {
     width: auto;
-    height: 300px;
+    height: auto;
+    background-color: #ffffff;
     opacity: 0;
     transition-duration: .5s;
     border-radius: 50%;
