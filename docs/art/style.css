@@ -16,7 +16,7 @@ body {
     font: inherit;
 }
 
-#main a {
+#header a {
     margin: 0;
     padding: 0;
     border: 0;
@@ -79,5 +79,37 @@ body {
 .button2:hover {
     color: white;
     cursor: pointer;
+}
+
+.content {
+    display:flex;
+    background-color:white;
+    margin-top: 54px;
+}
+
+.gallery {
+    display:inline-block;
+    position: relative;
+    background-color: inherit;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.galleryHeader {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.gallery a {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 200px;
 }
 
