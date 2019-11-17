@@ -4,6 +4,8 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #body {
@@ -27,6 +29,7 @@ body {
 }
 
 .header {
+    z-index: 30;
     position:fixed;
     display: flex;
     font: inherit;
@@ -82,34 +85,44 @@ body {
 }
 
 .content {
-    display:flex;
+    z-index: 20;
+    display:block;
+    position: absolute;
     background-color:white;
     margin-top: 54px;
-}
-
-.gallery {
-    display:inline-block;
-    position: relative;
-    background-color: inherit;
-    margin-top: 50px;
-    margin-left: 45px;
-    margin-right: 45px;
+    width: 100%;
 }
 
 .galleryHeader {
-    position: relative;
-    font-size: 20px;
+    position: relative;;
+    font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 100%;
 }
 
-.gallery a {
+.gallery {
+    display: flex;
     position: relative;
-    display: inline-block;
-    margin: 0;
+    background-color: inherit;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 0;
+    flex-wrap: wrap;
+}
+
+
+.gallery a {
+    display: block;
+    position: relative;
+    margin: 2px;
     padding: 0;
-    height: auto;
-    width: 200px;
+}
+
+.gallery a img {
+    height: 150px;
+    width: auto;
 }
 
