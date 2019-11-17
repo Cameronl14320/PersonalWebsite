@@ -4,6 +4,10 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #body {
@@ -69,6 +73,11 @@ body {
 }
 .button1 {
     margin-right: 50px;
+    transition-duration: .3s;
+}
+
+.button2 {
+    transition-duration: .3s;
 }
 
 .button1:hover {
