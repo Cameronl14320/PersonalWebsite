@@ -28,17 +28,26 @@
         </div>
     </div>
 
-    <div class="content">
+    <div class="content" id="content">
         <div class="galleryHeader">Collection</div>
         <div class="gallery">
-            <a href="../images/Kya.svg">
+            <div class="galleryreveal" onClick="upsize('../images/Kya.svg')">
                 <img src="../images/Kya.svg"></img>
-            </a>
-            <a href="../images/KyaLogo.svg">
+            </div>
+            <div class="galleryreveal" onClick="upsize('../images/KyaLogo.svg')">
                 <img src="../images/KyaLogo.svg"></img>
-            </a>
-
+            </div>
         </div>
+    </div>
+
+    <div class="reveal" id="reveal">
+        <div class="revealdisplay" id="revealdisplay">
+            <div class="closedisplay" onclick="downsize()">
+                ✖
+            </div>
+            <img class="revealimg" id="revealimg" src="../images/KyaLogo.svg"></img>
+        </div>
+
     </div>
 </div>
 

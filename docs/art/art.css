@@ -100,6 +100,7 @@ body {
     background-color:rgb(26, 26, 29);
     margin-top: 54px;
     width: 100%;
+    transition-duration: .5s;
 }
 
 .galleryHeader {
@@ -110,6 +111,7 @@ body {
     text-transform: uppercase;
     margin-top: 20px;
     margin-left: 45px;
+    margin-bottom: 5px;
     width: 100%;
 }
 
@@ -125,7 +127,7 @@ body {
 }
 
 
-.gallery a {
+.galleryreveal {
     display: block;
     position: relative;
     margin: 2px;
@@ -133,15 +135,63 @@ body {
     padding: 0;
 }
 
-.gallery a img {
+.galleryreveal img {
     height: 150px;
     width: auto;
     opacity: .75;
     transition-duration: .2s;
 }
 
-.gallery a img:hover {
+.galleryreveal img:hover {
     opacity: 1;
+    cursor: pointer;
+}
 
+.reveal {
+    z-index: 25;
+    display:inline-flex;
+    position: absolute;
+    margin-top: 70px;
+    width: 100%;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.revealdisplay {
+    display: flex;
+    position:relative;
+    background-color: rgb(11, 11, 12);
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    height: 100%;
+    width: 60%;
+    transition-duration: .3s;
+    opacity: 0;
+}
+
+.closedisplay {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    right: 5px;
+    top: 0px;
+    opacity: .25;
+    transition-duration: .3s;
+}
+
+.closedisplay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.revealimg {
+    width: auto;
+    height: auto;
+    max-height: 75%;
+    max-width: 55%;
 }
 
