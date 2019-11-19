@@ -113,6 +113,8 @@ body {
 }
 
 .sectiongrid {
+    padding: 5px;
+    margin: 0px;
     display: grid;
     list-style: none;
     word-break: break-all;
