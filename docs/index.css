@@ -17,7 +17,6 @@ body {
 }
 
 #main {
-    background-color: #111111;
     font: inherit;
 }
 
@@ -32,6 +31,7 @@ body {
 }
 
 .header {
+    background-color: #111111;
     position:fixed;
     display: flex;
     font: inherit;
@@ -40,7 +40,6 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: inherit;
 }
 
 .logo {
@@ -89,5 +88,21 @@ body {
 .button2:hover {
     color: white;
     cursor: pointer;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.content span {
+
+    color: white;
+
 }
 

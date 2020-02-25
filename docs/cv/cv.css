@@ -118,20 +118,25 @@ body {
     display: grid;
     list-style: none;
     word-break: break-all;
-    grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(260px,2fr));
 }
 
 .email {
     display: flex;
     align-items: center;
+    width: auto;
 }
 
 .emailsymbol {
     width: 24px;
+    padding-right: 5px;
 }
 
-.emaildesc {
-
+.sectionbody span {
+    text-transform: none;
+    
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .sectionheader span {
