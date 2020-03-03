@@ -5,7 +5,7 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    -webkit-user-select: none;    
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -19,12 +19,41 @@ body {
 #loading {
     position: absolute;
     background-color: black;
-    position: fixed;
+    display: flex;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: 100;
     transition-duration: .25s;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.loading-icon:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loading-icon 1.2s linear infinite;
+}
+
+@keyframes loading-icon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #main {
@@ -43,13 +72,13 @@ body {
 
 .header {
     background-color: #111111;
-    position:fixed;
+    position: fixed;
     display: flex;
     font: inherit;
     height: 54px;
     left: 0;
     top: 0;
-    right:0;
+    right: 0;
     z-index: 20;
 }
 
@@ -62,8 +91,8 @@ body {
     white-space: nowrap;
     margin-left: 24px;
     margin-right: 50px;
-
 }
+
 .logoimage {
     display: inline-block;
     font: inherit;
@@ -80,8 +109,8 @@ body {
     text-align: center;
     align-items: center;
     color: rgb(160, 160, 160);
-
 }
+
 .button1 {
     margin-right: 50px;
     transition-duration: .3s;
@@ -113,10 +142,10 @@ body {
 .intro {
     display: block;
     text-align: center;
-    background-color:rgb(40, 40, 43);
+    background-color: rgb(40, 40, 43);
     margin-top: 10px;
-    padding:10px;
-    border-radius:5px;
+    padding: 10px;
+    border-radius: 5px;
     color: rgb(169, 167, 180);
 }
 
