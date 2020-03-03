@@ -1,0 +1,128 @@
+#html,
+body {
+    background-color: rgb(26, 26, 29);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    background-color: black;
+}
+
+#loading {
+    position: absolute;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+    transition-duration: .25s;
+}
+
+#main {
+    font: inherit;
+}
+
+#header a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+    vertical-align: baseline;
+}
+
+.header {
+    background-color: #111111;
+    position:fixed;
+    display: flex;
+    font: inherit;
+    height: 54px;
+    left: 0;
+    top: 0;
+    right:0;
+    z-index: 20;
+}
+
+.logo {
+    display: inline-flex;
+    width: auto;
+    font: inherit;
+    height: 100%;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 24px;
+    margin-right: 50px;
+
+}
+.logoimage {
+    display: inline-block;
+    font: inherit;
+    width: 140px;
+    height: 45px;
+}
+
+.buttons {
+    height: 100%;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center;
+    color: rgb(160, 160, 160);
+
+}
+.button1 {
+    margin-right: 50px;
+    transition-duration: .3s;
+}
+
+.button2 {
+    transition-duration: .3s;
+}
+
+.button1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.button2:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    margin-top: 54px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.intro {
+    display: block;
+    text-align: center;
+    background-color:rgb(40, 40, 43);
+    margin-top: 10px;
+    padding:10px;
+    border-radius:5px;
+    color: rgb(169, 167, 180);
+}
+
+.introheader {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+    margin-bottom: 5px;
+}

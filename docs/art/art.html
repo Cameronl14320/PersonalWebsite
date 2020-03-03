@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./art.css">
+<script src="./art.js"></script>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+  
+<div id="loading">
+</div>
+
+<div id="main">
+
+    <div class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <span class="logoimage">
+                    <img src="../images/KyaLogo.svg" alt="Logo for Kya Art">
+                </span>
+            </a>
+        </div>
+        <div class="buttons">
+            <div onClick="location.href = 'art.html';" class="button1">
+                Art
+            </div>
+            <div onClick="location.href = '../cv/cv.html';" class="button2">
+                CV
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <div class="galleryHeader">Collection</div>
+        <div class="gallery">
+            <div class="galleryreveal" onClick="upsize('../images/Kya.svg')">
+                <img src="../images/Kya.svg"></img>
+            </div>
+            <div class="galleryreveal" onClick="upsize('../images/KyaLogo.svg')">
+                <img src="../images/KyaLogo.svg"></img>
+            </div>
+            <div class="galleryreveal" onClick="upsize('../images/rage.jpg')">
+                <img src="../images/rage.jpg"></img>
+            </div>
+            <div class="galleryreveal" onClick="upsize('../images/standing.jpg')">
+                <img src="../images/standing.jpg"></img>
+            </div>
+        </div>
+    </div>
+
+    <div class="reveal" id="reveal">
+        <div class="revealdisplay" id="revealdisplay">
+            <div class="closedisplay" onclick="downsize()">
+                ✖
+            </div>
+            <img class="revealimg" id="revealimg" src="../images/KyaLogo.svg"></img>
+        </div>
+        <div class="closeimg" id="closeimg" onclick="downsize()">
+            </div>
+    </div>
+</div>
+
+</html>

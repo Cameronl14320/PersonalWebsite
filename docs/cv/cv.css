@@ -1,0 +1,171 @@
+#html,
+body {
+    background-color: rgb(26, 26, 29);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    background-color: black;
+}
+
+#loading {
+    position: absolute;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+    transition-duration: .25s;
+}
+
+#main {
+    background-color: #111111;
+    font: inherit;
+}
+
+#header a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+    vertical-align: baseline;
+}
+
+.header {
+    position:fixed;
+    display: flex;
+    font: inherit;
+    height: 54px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+}
+
+.logo {
+    display: inline-flex;
+    width: auto;
+    font: inherit;
+    height: 100%;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 24px;
+    margin-right: 50px;
+
+}
+.logoimage {
+    display: inline-block;
+    font: inherit;
+    width: 140px;
+    height: 45px;
+}
+
+.buttons {
+    height: 100%;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center;
+    color: rgb(160, 160, 160);
+
+}
+.button1 {
+    margin-right: 50px;
+    transition-duration: .3s;
+}
+
+.button2 {
+    transition-duration: .3s;
+}
+
+.button1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.button2:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    display:block;
+    position: relative;
+    margin-top: 64px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 26, 29);
+}
+
+.sectionone, .sectiontwo {
+    text-transform: uppercase;
+    background-color: rgb(40, 40, 43);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(169, 167, 180);
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    word-wrap: wrap;
+}
+
+.sectiongrid {
+    padding: 5px;
+    margin: 0px;
+    display: grid;
+    list-style: none;
+    word-break: break-all;
+    grid-template-columns: repeat(auto-fill,minmax(260px,2fr));
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.emailsymbol {
+    width: 24px;
+    padding-right: 5px;
+}
+
+.sectionbody span {
+    text-transform: none;
+    
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.sectionheader span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+.sectiondesc {
+    margin-top: 5px;
+}
+
+.sectiondesc span {
+    font-weight: normal;
+    text-transform: none;
+    color: rgb(191, 189, 201);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
