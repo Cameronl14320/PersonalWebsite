@@ -245,17 +245,22 @@ body {
     max-width: 55%;
 }
 
+.footer-container {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer {
     display: flex;
     position: absolute;
-    bottom: 0;
     left: 0;
     right: 0;
     background-color: black;
-    width: 100%;
     height: 108px;
-    z-index: 10;
 }
+
 
 .socialmedia-container {
     height: 100%;
@@ -290,12 +295,11 @@ body {
 }
 
 .social-insta-icon {
-    color: white;
     background-color: white;
     width: 50px;
     height: 50px;
     opacity: 25%;
     grid-column: 2;
-    border-radius: 15px;
+    border-radius: 25px;
     transition-duration: .1s;
 }
