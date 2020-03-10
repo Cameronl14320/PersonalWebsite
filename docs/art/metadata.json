@@ -1,0 +1,16 @@
+[{
+        "name": "Kya",
+        "property": "image",
+        "image_url": ["../images/Kya.png"]
+    },
+    {
+        "name": "Rage",
+        "property": "image",
+        "image_url": ["../images/rage.jpg"]
+    },
+    {
+        "name": "Standing",
+        "property": "image",
+        "image_url": ["../images/standing.jpg"]
+    }
+]

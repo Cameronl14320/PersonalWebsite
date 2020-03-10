@@ -29,3 +29,11 @@ document.onreadystatechange = () => {
         document.getElementById('loading').style.visibility = 'hidden';
     }
 };
+
+
+function createCollection() {
+    var data = JSON.parse("./metadata.json");
+    for (var i = 0; i < data.length; i++) {
+        alert(data[i].image_url);
+    }
+}
