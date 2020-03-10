@@ -32,7 +32,7 @@ document.onreadystatechange = () => {
 
 
 function createCollection() {
-    var data = JSON.parse("./metadata.json");
+    const collection = new Request('./metadata.json');
     for (var i = 0; i < data.length; i++) {
         alert(data[i].image_url);
     }
